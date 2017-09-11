@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="demo.yc.ycweather.activity.AirQualityActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mainGreen"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/top_padding">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="空气质量详情"
+            android:textColor="#fff"
+            android:textSize="18sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#fff">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="10dp">
+            <ImageView
+                android:id="@+id/air_quality_back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/back_ring"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

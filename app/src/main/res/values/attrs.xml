@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <declare-styleable name="AirQualityView">
+        <attr name="mainTitle" format="string|reference"/>
+        <attr name="mainTitleColor" format="color|reference"/>
+        <attr name="mainTitleSize" format="dimension"/>
+        <attr name="subTitle" format="reference|string"/>
+        <attr name="subTitleColor" format="color|reference"/>
+        <attr name="subTitleSize" format="dimension"/>
+        <attr name="currentNum" format="integer"/>
+        <attr name="currentNumColor" format="color|reference"/>
+        <attr name="currentNumSize" format="dimension"/>
+        <attr name="totalNum" format="integer"/>
+        <attr name="cycleWidth" format="dimension"/>
+        <attr name="cycleColor" format="color|reference"/>
+        <attr name="cyclebg" format="color|reference"/>
+    </declare-styleable>
+</resources>

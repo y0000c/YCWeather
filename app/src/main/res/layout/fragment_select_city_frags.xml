@@ -1,0 +1,53 @@
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical"
+     tools:context="demo.yc.ycweather.fragments.SelectCityFrags">
+
+    <LinearLayout
+        android:paddingTop="@dimen/top_padding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/mainGreen">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_centerVertical="true"
+                android:src="@drawable/back"
+                android:layout_marginStart="10dp"
+                android:id="@+id/select_city_back"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+            <TextView
+                android:layout_centerInParent="true"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:text="中国"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/select_city_title"
+                android:gravity="center"/>
+            <ImageView
+                android:id="@+id/select_city_locate"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/locate" android:visibility="gone"/>
+        </RelativeLayout>
+
+        <ListView
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/select_city_list"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+

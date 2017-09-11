@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_forecast_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="demo.yc.ycweather.activity.ForecastDetailActivity">
+    <LinearLayout
+        android:paddingTop="@dimen/top_padding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/mainGreen">
+        <TextView
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="7天趋势预报"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#fff">
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
